@@ -24,17 +24,7 @@
       <ul class='list-unstyled components'>
           <li class='active'>
             <a href="#homeSubmenu" data-toggle= "collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
-          <ul class="collapse list-unstyled" id="HomeSubMenu">
-              <li>
-                  <a href="#">Home 1</a>
-              </li>
-              <li>
-                  <a href="#">Home 2</a>
-              </li>
-              <li>
-                  <a href="#">Home 3</a>
-              </li>
-          </ul> 
+          <ul class="collapse list-unstyled" id="HomeSubMenu"></ul> 
           </li>
           <li>
              <a href="#">About</a>
@@ -71,7 +61,19 @@
             </div>
         </nav>
     </div>
+    <div id='MainPage' style="padding-left:50px; padding-top:10px;">
+         <div class='container-fluid'>
+             <h2>Table to Chart</h2>
+             <p>
+                 Table to chart is designed to have an easy conversion of a table (i.e. data frame) to any chart from <thead>
+                     <a href="https://www.chartjs.org/" target="_blank">Chart.js library</a>.
+                 </thead>
+             </p>
+             <h3>Upload your data frame</h3>
+         </div>
+    </div>
   </div>
+
 <script type="text/javascript">
     $(document).ready(function () {
         $("#sidebar").mCustomScrollbar({
